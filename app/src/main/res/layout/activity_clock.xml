@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/random_quiz_main_background"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/choosen_answer_background"
+        android:layout_marginBottom="50dp"
+        android:padding="20dp"
+        android:text="Game Over"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="230dp"
+        android:layout_height="195dp"
+        android:layout_gravity="center"
+        android:background="@drawable/time_out_background">
+
+    </ImageView>
+
+    <Button
+        android:id="@+id/bt_timer"
+        android:layout_width="wrap_content"
+        android:background="#0898B2"
+        android:text="OK"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        />
+</LinearLayout>
